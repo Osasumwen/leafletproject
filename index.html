@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Price Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="data.js" defer></script>
+    <script type="module" src="map.js" defer></script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <input type="range" id="timeSlider" min="2015" max="2024" step="1" value="2015">
+    <label id="timeLabel">2015</label>
+</body>
+
+</html>
